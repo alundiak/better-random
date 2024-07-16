@@ -1,0 +1,15 @@
+{
+  "name": "@alundiak/better-random-sequence",
+  "version": "1.0.0",
+  "description": "",
+  "main": "better.js",
+  "scripts": {
+    "start": "node ./generateFile.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0"
+  }
+}
