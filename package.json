@@ -1,7 +1,7 @@
 {
-  "name": "@alundiak/better-random-sequence",
+  "name": "@alundiak/better-random",
+  "description": "An instrumental code for me to have a better code",
   "version": "1.0.0",
-  "description": "",
   "main": "better.js",
   "scripts": {
     "start": "node ./generateFile.js",

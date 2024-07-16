@@ -1,3 +1,5 @@
+// Using Fisher-Yates shuffle algorithm
+// https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
 module.exports = function generateRandomSequence(MAX_NUMBER) {
     let sequence = [];
     let remainingNumbers = Array.from({ length: MAX_NUMBER }, (_, index) => index + 1);
