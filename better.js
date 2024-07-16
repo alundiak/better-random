@@ -11,6 +11,7 @@ module.exports = function generateRandomSequence(MAX_NUMBER) {
         sequence.push(randomNumber);
     }
 
+    console.log('\nOriginal sequence:');
     console.log(sequence.toString());
 
     return sequence;
