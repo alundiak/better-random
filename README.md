@@ -14,7 +14,7 @@ Idea came into real usage after I realized that ChatGPT. ChatGPT suggested me pr
 
 This code aimed to introduce a way how to generate a sequence of numbers which would be random but after many iterations.
 
-To have ALL numbers from MIN_NUMBER to MAX_NUMBER inclusive, and that numbers NOT repeated and NOT skipped. Meaning that after sorting of such sequence oit would be 100% incremental sequence. In the code is used a [Fisher-Yates shuffle algorithm](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle).
+To have ALL numbers from `MIN_NUMBER` to `MAX_NUMBER` inclusive, and that numbers NOT repeated and NOT skipped. Meaning that after sorting of such sequence oit would be 100% incremental sequence. In the code is used a [Fisher-Yates shuffle algorithm](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle).
 
 I iterate 1 mln times, and final result write into CSV file, so that I can easily copy column and paste in Google Spreadsheet document.
 
@@ -22,9 +22,9 @@ I iterate 1 mln times, and final result write into CSV file, so that I can easil
 
 Execute `npm test` to run a cycle from `1_000_000` iterations to make sure random value is really random.
 
-Execute `npm start` to run a cycle from `1_000_000` iterations and write numbers into `./files/random_sequence.csv` after cycle finished.
+Execute `npm start` to run a cycle from `1_000_000` iterations and write numbers into file after cycle finished.
 
-Additional output may be logged into Terminal `stdout` but it then can slow down Terminal / VS COde / PowerShell / etc. which might be then stop responding.
+Additional output may be logged into Terminal `stdout` but it then can slow down Terminal / VS Code / PowerShell / etc. which might stop responding.
 
 ## TODO
 
