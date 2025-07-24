@@ -2,14 +2,15 @@
   "name": "@alundiak/better-random",
   "description": "An instrumental code for me to have a better code",
   "version": "1.0.0",
-  "main": "better.js",
+  "main": "betterRandom.js",
+  "type": "module",
   "scripts": {
     "start": "node ./generateFile.js",
     "test": "node ./test.js"
   },
-  "author": "",
+  "author": "Andrii Lundiak",
   "license": "ISC",
   "dependencies": {
-    "csv-parser": "^3.0.0"
+    "csv-parser": "^3.2.0"
   }
 }
